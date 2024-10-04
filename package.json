@@ -1,0 +1,23 @@
+{
+  "name": "url_shortener_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Estkhar Ansari",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0",
+    "nanoid": "^5.0.7",
+    "ua-parser-js": "^1.0.39"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
